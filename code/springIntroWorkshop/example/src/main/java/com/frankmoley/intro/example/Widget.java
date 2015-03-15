@@ -1,4 +1,4 @@
-package com.frankmoley.intro;
+package com.frankmoley.intro.example;
 
 import java.io.Serializable;
 import java.util.UUID;
