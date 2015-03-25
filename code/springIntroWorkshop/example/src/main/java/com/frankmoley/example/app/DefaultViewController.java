@@ -13,6 +13,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("/app")
 public class DefaultViewController {
 
+    private final ServiceController serviceContoller;
+
+    public DefaultViewController(ServiceController serviceController){
+        super();
+        this.serviceContoller = serviceController;
+    }
+
     @RequestMapping("/home")
     public String viewHome(@RequestParam(value="name", required=false) String name, Model model){
         if(null == name || StringUtils.isEmpty(name.trim())){

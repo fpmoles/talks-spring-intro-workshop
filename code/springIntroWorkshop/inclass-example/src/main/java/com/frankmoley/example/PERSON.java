@@ -1,28 +1,23 @@
-package com.frankmoley.example.data.domain;
-
-import org.springframework.beans.factory.annotation.Autowired;
+package com.frankmoley.example;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
+import java.util.UUID;
 
 /**
  * @author Frank Moley
  */
 @Entity
-@Table(name="CUSTOMER")
-public class CustomerEntity implements Serializable{
+@Table(name="PERSON")
+public class Person implements Serializable{
     private static final long serialVersionUID = 1L;
 
-
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name="ID")
-    private long id;
+    @Column(name="PERSON_ID")
+    private String id;
 
     @Column(name="FIRST_NAME")
     private String firstName;
@@ -33,15 +28,16 @@ public class CustomerEntity implements Serializable{
     @Column(name="EMAIL_ADDRESS")
     private String emailAddress;
 
-    public CustomerEntity(){
+    public Person() {
         super();
+        this.id = UUID.randomUUID().toString();
     }
 
-    public long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
