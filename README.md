@@ -12,7 +12,7 @@ specifics, the links provided below should help.
 * Tomcat 8.5: https://tomcat.apache.org/tomcat-8.5-doc/appdev/installation.html
 * Basic knowledge of your Java IDE including running Tomcat from within the IDE
 
-##Agenda
+## Agenda
 Tentative schedule.
 
 | Section | Time Frame | Description | Exercise |
