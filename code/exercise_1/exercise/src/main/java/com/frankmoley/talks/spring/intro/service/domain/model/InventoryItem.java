@@ -1,5 +1,8 @@
 package com.frankmoley.talks.spring.intro.service.domain.model;
 
+/**
+ * A specific inventory item with the base details.
+ */
 public class InventoryItem {
     private long itemId;
     private String name;

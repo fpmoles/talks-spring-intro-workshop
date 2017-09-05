@@ -1,5 +1,8 @@
 package com.frankmoley.talks.spring.intro.service.domain.model;
 
+/**
+ * A specific user in the system
+ */
 public class User {
     private String username;
     private String personId;

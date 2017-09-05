@@ -5,6 +5,9 @@ import com.frankmoley.talks.spring.intro.data.repository.PersonRepository;
 import com.frankmoley.talks.spring.intro.service.domain.model.DetailedInventoryItem;
 import com.frankmoley.talks.spring.intro.service.domain.model.Inventory;
 
+/**
+ * The inventory service manages all of the user inventory information including adding, updating, and retrieving the relevant details of the user and his or her items.
+ */
 public class InventoryService {
 
     private final ItemRepository itemRepository;

@@ -2,6 +2,9 @@ package com.frankmoley.talks.spring.intro.service.domain.model;
 
 import java.util.List;
 
+/**
+ * The Inventory DTO provides information about the user and his/her inventory items
+ */
 public class Inventory {
     private String emailAddress;
     private String firstName;
