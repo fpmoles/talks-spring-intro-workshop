@@ -3,6 +3,21 @@ This 8 hour workshop is designed to introduce the Java developer to the Spring F
 of configuring an application for basic Spring Inversion of Control and walks through several of the pieces of the core project.
 This workshop provides both lecture and hands on exercises to enforce the basic knowledge.
 
+## Abstract
+A deep dive into the core Spring Framework and some of the most popular projects. We will focus on configuring the application context, the bean lifecycle, data access, web applications, ReSTful web services, and the new hotness of Spring Boot.
+
+Focuses include 
+* Configuration of the Application Context 
+* Bean Lifecycle 
+* Data Access with Spring 
+* Transaction Management for Relational Databases 
+* Web Applications with Spring 
+* ReSTful web services with Spring 
+* Spring Boot
+* Testing with Spring
+* Spring Security
+
+
 ## Prerequisties
 For success in this workshop, please have the following completed prior to the workshop. While I cannot support all operating system
 specifics, the links provided below should help.
