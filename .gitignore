@@ -2,5 +2,5 @@ target
 *.iml
 .clover/
 .idea
-
+.DS_Store
 
