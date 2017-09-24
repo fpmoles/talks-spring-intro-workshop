@@ -1,7 +1,5 @@
 package com.frankmoley.talks.spring.intro.data.entity;
 
-import java.sql.Date;
-
 /**
  * The Item Entity represents a specific inventory item for a person. No inventory item can be stored without a person.
  */
@@ -9,8 +7,6 @@ public class ItemEntity {
     private long id;
     private String name;
     private String description;
-    private Double cost;
-    private Date acquired;
     private String manufacturer;
     private String model;
     private int quantity;
@@ -40,23 +36,7 @@ public class ItemEntity {
         this.description = description;
     }
 
-    public Double getCost() {
-        return cost;
-    }
-
-    public void setCost(Double cost) {
-        this.cost = cost;
-    }
-
-    public Date getAcquired() {
-        return acquired;
-    }
-
-    public void setAcquired(Date acquired) {
-        this.acquired = acquired;
-    }
-
-    public String getManufacturer() {
+     public String getManufacturer() {
         return manufacturer;
     }
 
