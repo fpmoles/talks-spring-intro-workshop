@@ -41,9 +41,9 @@ Tentative schedule.
 | 7 | As Permitted | Spring Security | None |
 
 ## Structure
-* Presentation folder contains the Presentation for this workshop
-* Lab contains the Lab instructions for this workshop
-* Code contains all of the code. Each Exercise contains a working exercise folder and a solution folder.
+* presentation folder contains the Presentation for this workshop
+* lab contains the Lab instructions for this workshop
+* code contains all of the code. Each Exercise contains a working exercise folder and a solution folder.
 
 ## Presented at
 2017 Pairie.Code()

@@ -6,6 +6,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.servlet.http.HttpSession;
+
 @Controller
 @RequestMapping(value="/")
 public class AppController {
@@ -18,8 +20,11 @@ public class AppController {
     }
 
     @GetMapping
-    public String getHome(Model model){
+    public String getHome(Model model, HttpSession session){
+        if(session.isNew())
         model.addAttribute("users", this.userService.getAllUsers());
         return "index";
     }
+
+
 }
